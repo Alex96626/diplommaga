@@ -1,0 +1,13 @@
+@extends('layouts.site')
+@section('admin_menus')
+        @include('site.menus')
+@endsection
+@section('header')
+        @include('site.header')
+@endsection
+@section('content')
+    @include('site.content')
+@endsection
+@section('footer')
+    @include('site.footer')
+@endsection
